@@ -47,6 +47,7 @@ section {
   padding: 1em 4em;
   overflow: auto;
   max-width: 100%;
+  color: #5A3A23;
   /*font-family: 'Arimo', sans-serif;*/
 }
 .intro1 {
@@ -118,4 +119,22 @@ nav {
 .familyPhotos img {
   max-width: 100%;
   border: solid 3px #7A6A53;
+}
+#contactMe {
+  /*display: flex;
+  flex-direction: column;*/
+  list-style: none;
+  font-size: 2em;
+
+}
+#contactMe a {
+  text-decoration: none;
+}
+#contactMe a:link {
+  color: green;
+}#contactMe a:visited {
+  color: yellow;
+}
+#contactMe span {
+  padding-left: 9px;
 }
