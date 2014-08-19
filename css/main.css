@@ -1,6 +1,7 @@
-body {
-  margin: 0;
-}
+
+/*****************
+Entry page
+******************/
 #splash {
   position: fixed; 
   top: 0; 
@@ -24,6 +25,15 @@ body {
 }
 #enter:active {
   background-color: black;
+}
+
+
+
+/*****************
+Basic page structure
+******************/
+body {
+  margin: 0;
 }
 .container {
   width: 100%;
@@ -50,19 +60,6 @@ section {
   color: #5A3A23;
   /*font-family: 'Arimo', sans-serif;*/
 }
-.intro1 {
-  flex: 1;
-  text-align: center;
-  font-size: 1em;
-}
-.intro2 {
-  flex: 1;
-  text-align: center;
-  padding-bottom: 20px;
-}
-.incarnations {
-  flex: 14;
-}
 footer {
   flex: 1;
   background-color: #99B2B7;
@@ -70,6 +67,12 @@ footer {
   color: #7A6A53;
   padding: 1em 0 .25em 1em;
 }
+
+
+
+/*****************
+Top navigation
+******************/
 .logoMe {
     max-width: 60px;
     max-height: 60px;
@@ -102,6 +105,42 @@ ul.navlinks a:link {
   background-color: #C5C5C5;
 }
 
+
+/*****************
+Home page
+******************/
+.intro1 {
+  flex: 1;
+  text-align: center;
+  font-size: 1em;
+}
+.intro2 {
+  flex: 1;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.incarnations {
+  flex: 14;
+}
+ul.incarnations {
+  list-style: none;
+  color: #7A6A53;
+}
+ul.incarnations li a {
+    font-size: 1em;
+    color: #5A3A23;
+    text-decoration: none;
+}
+.incarnations a:hover {
+flex: 14;
+list-style: none;
+color: black;
+}
+
+
+/*****************
+Family page
+******************/
 .familyPhotos {
   flex: 8;
 /*  max-width: 600px;
@@ -120,6 +159,11 @@ ul.navlinks a:link {
   max-width: 100%;
   border: solid 3px #7A6A53;
 }
+
+
+/*****************
+Contact page
+******************/
 #contactMe {
   /*display: flex;
   flex-direction: column;*/
@@ -138,21 +182,11 @@ ul.navlinks a:link {
 #contactMe span {
   padding-left: 9px;
 }
-ul.incarnations {
-  list-style: none;
-  color: #7A6A53;
-}
-ul.incarnations li a {
-    font-size: 1em;
-    color: #5A3A23;
-    text-decoration: none;
-}
-.incarnations a:hover {
-flex: 14;
-list-style: none;
-color: black;
-}
 
+
+/*****************
+Link colors
+******************/
 /*a:link {color: #5A3A23; text-decoration: none; }
 a:active {color: #5A3A23; text-decoration: none; }*/
 a:visited {color: #5A3A23; text-decoration: none; }
